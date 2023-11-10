@@ -1,24 +1,3 @@
 # gestion-projet-vue
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Un site web de gestion de projet : Outil de gestion de projet qui permette aux équipes de collaborer sur des projets, d'assigner des tâches, de suivre les progrès.
