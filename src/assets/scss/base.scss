@@ -1,8 +1,23 @@
-$color1: #f3f8ff;
-$color2: #8ecddd;
-$color3: #22668d;
-$color4: #ffcc70;
+$purple1: #eef1ff;
+$purple2: #d2daff;
+$purple3: #b1b2ff;
+$purple4: #aac4ff;
+$purple5: #9899ff;
+
+$purple6: #d67bff;
+
+$orange1: #ffcaa7;
+$orange2: #ffbb8e;
+
+$green1: #bde9a8;
+$green2: #aee494;
+
+$grey1: #777777;
+$grey2: #5a5a5a;
+
+$white: white;
 
 body {
-    background-color: $color1;
+    background-color: $purple1;
+    color: $white;
 }

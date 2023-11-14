@@ -1,0 +1,47 @@
+#container-login {
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    color: $grey2;
+    text-align: center;
+}
+
+#container-login-image {
+    width: 600px;
+    background-color: $purple5;
+}
+
+#container-login-input {
+    width: 600px;
+    background-color: $white;
+}
+
+.colored-text {
+    font-size: 18px;
+}
+
+.grey-text {
+    color: $grey2;
+}
+
+.purple-text {
+    color: $purple6;
+}
+
+.button {
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: $purple5;
+    color: $white;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: $purple3;
+}

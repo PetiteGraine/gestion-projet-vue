@@ -3,14 +3,23 @@
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
 @import './assets/scss/base.scss';
 @import './assets/scss/accueil.scss';
+@import './assets/scss/login.scss';
+
+body {
+  background-image: url("./assets/img/planes.png");
+  background-size: 40%;
+  font-weight: 300;
+
+  @font-face {
+    font-family: Raleway;
+    src: url(./assets/Raleway/Raleway-VariableFont_wght.ttf);
+  }
+}
+
+#container-login-image {
+  background-image: url("./assets/img/light_purple_bg.jpg");
+  background-size: cover;
+}
 </style>

@@ -1,15 +1,22 @@
 <template>
-    <h1>Test</h1>
-    <form>
-        <h2>Connexion</h2>
-        <label for="username">Nom d'utilisateur :</label> <br>
-        <input type="text"> <br>
+    <div id="container-login">
+        <div id="container-login-image"></div>
+        <div id="container-login-input">
+            <form>
+                <div class="colored-text">
+                    <span class="grey-text">Bonjour ! Bienvenue sur </span>
+                    <span class="purple-text">TaskVue</span> <br> <br>
+                    <span class="purple-text">Connecte-toi </span>
+                    <span class="grey-text">sur ton compte</span>
+                </div>
+                <input type="text" placeholder="Adresse mail"> <br>
+                <input type="password" placeholder="Mot de passe"> <br>
 
-        <label for="password">Mot de passe :</label> <br>
-        <input type="password"> <br>
 
-        <button type="submit">Se Connecter</button>
-    </form>
+                <button type="submit" class="button">Se Connecter</button>
+            </form>
+        </div>
+    </div>
 </template>
   
 <style></style>
