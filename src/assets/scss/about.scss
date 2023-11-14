@@ -1,0 +1,17 @@
+#container-about {
+    margin-top: 80px;
+    display: flex;
+    width: 600px;
+    border-radius: 12px;
+    background-color: $white;
+    margin: 40px auto 0;
+    height: 500px;
+    flex-direction: row;
+    color: $grey2;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#container-about h2 {
+    color: $purple6;
+}

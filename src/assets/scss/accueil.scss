@@ -20,35 +20,37 @@ a {
     border-top-right-radius: 12px;
 }
 
-#container-profil-about {
+#container-profil-about-select {
     width: 900px;
     margin: auto;
     display: flex;
     flex-direction: row;
 }
 
-#container-profil,
-#container-about {
+#container-profil-select,
+#container-about-select {
     width: 450px;
     padding: 100px 0;
     opacity: 0.8;
-    transition: opacity 0.3s ease;
+    transition: opacity 1s ease;
 }
 
-#container-profil {
+#container-profil-select {
     background-color: $orange1;
     border-bottom-left-radius: 12px;
 }
 
-#container-profil:hover {
+#container-profil-select:hover {
+    background-color: $orange2;
     opacity: 0.95;
 }
 
-#container-about {
+#container-about-select {
     background-color: $green1;
     border-bottom-right-radius: 12px;
 }
 
-#container-about:hover {
+#container-about-select:hover {
+    background-color: $green2;
     opacity: 0.95;
 }

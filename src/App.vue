@@ -6,6 +6,7 @@
 @import './assets/scss/base.scss';
 @import './assets/scss/accueil.scss';
 @import './assets/scss/login.scss';
+@import './assets/scss/about.scss';
 
 body {
   background-image: url("./assets/img/planes.png");
@@ -13,9 +14,11 @@ body {
   font-weight: 300;
 
   @font-face {
-    font-family: Raleway;
+    font-family: 'Raleway';
     src: url(./assets/Raleway/Raleway-VariableFont_wght.ttf);
   }
+
+  font-family: "Raleway";
 }
 
 #container-login-image {
