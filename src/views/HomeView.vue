@@ -2,13 +2,19 @@
   <div class="home">
     <nav>
       <div id="container-full-home">
-        <div id="container-home">Page d'accueil</div>
+        <div id="container-home">
+          <h1>Page d'accueil</h1>
+        </div>
         <div id="container-profil-about">
           <div id="container-profil">
-            <router-link to="/authuser">Se connecter</router-link>
+            <router-link to="/authuser">
+              <h2>Se connecter</h2>
+            </router-link>
           </div>
           <div id="container-about">
-            <router-link to="/about">À propos de nous</router-link>
+            <router-link to="/about">
+              <h2>À propos de nous</h2>
+            </router-link>
           </div>
         </div>
       </div>

@@ -1,6 +1,8 @@
 #container-login {
-    height: 500px;
-    margin: auto;
+    margin-top: 80px;
+    position: absolute;
+    left: calc(50% - 450px);
+    height: 400px;
     display: flex;
     flex-direction: row;
     color: $grey2;
@@ -8,13 +10,17 @@
 }
 
 #container-login-image {
-    width: 600px;
+    width: 450px;
     background-color: $purple5;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
 #container-login-input {
-    width: 600px;
+    width: 450px;
     background-color: $white;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 .colored-text {
@@ -44,4 +50,8 @@ input[type="password"] {
     border-right: none;
     border-left: none;
     border-color: $purple3;
+}
+
+#login-form {
+    margin-top: 80px;
 }

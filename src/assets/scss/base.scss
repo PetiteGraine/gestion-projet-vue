@@ -21,3 +21,22 @@ body {
     background-color: $purple1;
     color: $white;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: normal;
+    font-weight: 600;
+    color: $white;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
