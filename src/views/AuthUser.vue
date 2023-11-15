@@ -20,7 +20,7 @@
                 <input type="password" placeholder="Mot de passe"> <br>
                 <br>
                 <br>
-                <button type="submit" class="button">Se connecter</button>
+                <button type="submit" class="button"><router-link to="/ProfileUser">Se connecter</router-link></button>
             </form>
         </div>
     </div>

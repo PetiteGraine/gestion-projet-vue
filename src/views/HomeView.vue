@@ -3,12 +3,14 @@
     <nav>
       <div id="container-full-home">
         <div id="container-home">
+          <img src="../assets/img/icon-web.png" width="80">
           <h1>Page d'accueil</h1>
+
         </div>
         <div id="container-profil-about-select">
           <div id="container-profil-select">
             <router-link to="/authuser">
-              <h2>Se connecter</h2>
+              <h2>Profile</h2>
             </router-link>
           </div>
           <div id="container-about-select">

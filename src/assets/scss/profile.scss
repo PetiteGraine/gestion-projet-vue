@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: $grey2;
+}
+
+.table-col {
+    background-color: $purple4;
+}
+
+th {
+    width: 200px;
+}
+
+th,
+td {
+    border: 1px solid $purple5;
+    padding: 10px;
+    text-align: left;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: $white;
+}
+tr:nth-child(even) {
+    background-color: $purple1;
+}
+
+#container-form {
+    margin: auto;
+    background-color: $white;
+    width: 300px;
+    color: $grey2;
+    border-radius: 12px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#add-project {
+    margin-top: 40px;
+    position: relative;
+    left: calc(50% - 60px);
+}

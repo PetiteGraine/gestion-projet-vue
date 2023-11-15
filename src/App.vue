@@ -7,6 +7,7 @@
 @import './assets/scss/accueil.scss';
 @import './assets/scss/login.scss';
 @import './assets/scss/about.scss';
+@import './assets/scss/profile.scss';
 
 body {
   background-image: url("./assets/img/planes.png");
