@@ -1,7 +1,7 @@
 #container-about {
     margin-top: 80px;
     display: flex;
-    width: 600px;
+    width: 500px;
     border-radius: 12px;
     background-color: $white;
     margin: 40px auto 0;
@@ -9,7 +9,8 @@
     flex-direction: row;
     color: $grey2;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 80px;
+    text-align: center;
 }
 
 #container-about h2 {
