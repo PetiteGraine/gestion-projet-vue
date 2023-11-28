@@ -2,10 +2,10 @@
     <table>
         <thead>
             <tr>
-                <th class="table-col">Titre</th>
-                <th class="table-col">Description</th>
-                <th class="table-col">Date début</th>
-                <th class="table-col">Deadline</th>
+                <th class="table-col-projects">Titre</th>
+                <th class="table-col-projects">Description</th>
+                <th class="table-col-projects">Date début</th>
+                <th class="table-col-projects">Deadline</th>
             </tr>
         </thead>
         <tbody>
@@ -23,23 +23,7 @@
 export default {
     name: 'ListeProjet',
     props: {
-        projets: {
-            type: Array,
-            default: () => [
-                {
-                    titre: 'ExempleTitre',
-                    description: 'ExempleDescription',
-                    date_debut: '15/11/2023',
-                    date_fin: '28/11/2023'
-                },
-                {
-                    titre: 'ExempleTitre',
-                    description: 'ExempleDescription',
-                    date_debut: '15/11/2023',
-                    date_fin: '28/11/2023'
-                }
-            ]
-        }
+        projets: []
     }
 }
 </script>
