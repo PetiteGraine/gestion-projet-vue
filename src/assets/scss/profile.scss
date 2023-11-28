@@ -32,17 +32,19 @@ tr:nth-child(even) {
 }
 
 #container-form {
-    margin: auto;
+    margin: 40px auto;
     background-color: $white;
     width: 300px;
     color: $grey2;
     border-radius: 12px;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 #add-project {
     margin-top: 40px;
-    position: relative;
-    left: calc(50% - 60px);
+}
+
+.center-button {
+    margin-left: calc(50% - 60px);
 }

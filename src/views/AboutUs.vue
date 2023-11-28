@@ -7,19 +7,19 @@
         <span>R MATHIVANAN</span>
       </h2>
       <ul>
-        <li>Partie front</li>
-        <li>Partie front</li>
+        <li>Étudiant à EFREI</li>
         <li>Partie front</li>
       </ul>
     </div>
     <div>
-      <h2><span>Aurélien</span> <br>
+      <h2>
+        <span>Aurélien</span> <br>
         <span>MOINE</span>
       </h2>
       <ul>
+        <li>Étudiant à EFREI</li>
         <li>Partie front</li>
-        <li>Partie front</li>
-        <li>Partie front</li>
+        <li>Partie gestion des donnés</li>
       </ul>
     </div>
   </div>

@@ -1,15 +1,15 @@
 <template>
-    <form id="container-form">
+    <form id="container-form" @submit.prevent="add">
         <p>Titre</p>
-        <input type="text" v-model="titre">
+        <input type="text" class="input-field" v-model="titre" required>
         <p>Description</p>
-        <input type="text" v-model="description"> <br>
+        <input type="text" class="input-field" v-model="description" required> <br>
         <p>Date début</p>
-        <input type="text" v-model="date_debut"> <br>
+        <input type="text" class="input-field" v-model="date_debut" required> <br>
         <p>Deadline</p>
-        <input type="text" v-model="date_fin">
+        <input type="text" class="input-field" v-model="date_fin" required>
+        <button type="submit" class="button" id="add-project">Ajouter le projet</button>
     </form>
-    <button @click.prevent="add" class="button" id="add-project">Ajouter le projet</button>
 </template>
 
 <script>
@@ -20,7 +20,8 @@ export default {
             titre: '',
             description: '',
             date_debut: '',
-            date_fin: ''
+            date_fin: '',
+
         }
     },
     methods: {
@@ -35,7 +36,8 @@ export default {
             this.description = '';
             this.date_debut = '';
             this.date_fin = '';
-        }
+        },
+
     }
 }
 </script>
