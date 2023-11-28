@@ -12,6 +12,8 @@
         <input type="date" class="input-field" v-model="date_debut" required> <br>
         <p>Deadline</p>
         <input type="date" class="input-field" v-model="date_fin" required>
+        <p>Tâche déjà terminée ?</p>
+        <input type="checkbox" class="input-field" v-model="fini">
         <button type="submit" class="button orange" id="add-project">Ajouter la tache</button>
     </form>
 </template>
@@ -30,6 +32,7 @@ export default {
             description: '',
             date_debut: '',
             date_fin: '',
+            fini: false
 
 
         }
@@ -41,13 +44,15 @@ export default {
                 titre: this.titre,
                 description: this.description,
                 date_debut: this.date_debut,
-                date_fin: this.date_fin
+                date_fin: this.date_fin,
+                fini: this.fini
             });
             this.projet = '';
             this.titre = '';
             this.description = '';
             this.date_debut = '';
             this.date_fin = '';
+            this.fini = false;
         },
 
     }

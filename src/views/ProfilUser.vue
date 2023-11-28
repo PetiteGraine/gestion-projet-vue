@@ -5,7 +5,7 @@
     <ListeProjet :projets="projets"></ListeProjet>
     <button class="button center-button green" @click="projetToggle">Crée un projet</button>
     <AjoutProjet @taskadded="ajouterProjet" :style="{ display: showProjetForm ? 'block' : 'none' }"></AjoutProjet>
-    <button class="title-table" style="margin-top: 20px;">Liste des taches</button>
+    <button class="title-table" style="margin-top: 20px;">Liste des tâches</button>
     <ListeTache :taches="taches"></ListeTache>
     <button class="button center-button green" @click="taskToggle">Crée une Tache</button>
     <AjoutTache @taskadded="ajouterTache" :projets="projets" :style="{ display: showTasksForm ? 'block' : 'none' }">
@@ -47,25 +47,25 @@ export default {
       taches: [
         {
           projet: 'Projet1',
-          titre: 'Tache1',
-          description: 'DescriptionTache',
-          etat: 'en cours',
-          date_debut: '15/11/2023',
-          date_fin: '22/11/2023'
+          titre: 'Tâche1',
+          description: 'Description1',
+          fini: true,
+          date_debut: '2023-11-15',
+          date_fin: '2023-11-22'
         },
         {
           projet: 'Projet1',
-          titre: 'Tache2',
-          description: 'DescriptionTache',
-          etat: 'en cours',
+          titre: 'Tâche2',
+          description: 'Description2',
+          fini: true,
           date_debut: '2023-11-15',
           date_fin: '2023-11-28'
         },
         {
           projet: 'Projet2',
-          titre: 'Tache1',
-          description: 'DescriptionTache',
-          etat: 'en cours',
+          titre: 'Tâche1',
+          description: 'Description1',
+          fini: false,
           date_debut: '2023-12-12',
           date_fin: '2023-12-17'
         }
