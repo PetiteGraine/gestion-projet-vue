@@ -1,7 +1,7 @@
 <template>
     <form id="container-form" @submit.prevent="add">
         <p>Projet</p>
-        <select name="projet" v-model="projet" required>
+        <select name="projet" class="input-field" v-model="projet" required>
             <option v-for="(p, index) in projets" :key="index" :value="p">{{ p.titre }}</option>
         </select>
         <p>Titre</p>
