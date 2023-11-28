@@ -52,3 +52,13 @@ tr:nth-child(even) {
 .center-button {
     margin-left: calc(50% - 60px);
 }
+
+.title-table {
+    background-color: $purple6;
+    width: 150px;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 0;
+    margin-left: calc(50% - 75px);
+    color: $white;
+}

@@ -1,9 +1,11 @@
 <template>
   <div class="profile">
     <button class="button back-button "><router-link to="/">Retour</router-link></button>
+    <button class="title-table">Liste des projets</button>
     <ListeProjet :projets="projets"></ListeProjet>
     <button class="button center-button green" @click="projetToggle">Crée un projet</button>
     <AjoutProjet @taskadded="ajouterProjet" :style="{ display: showProjetForm ? 'block' : 'none' }"></AjoutProjet>
+    <button class="title-table" style="margin-top: 20px;">Liste des taches</button>
     <ListeTache :taches="taches"></ListeTache>
     <button class="button center-button green" @click="taskToggle">Crée une Tache</button>
     <AjoutTache @taskadded="ajouterTache" :projets="projets" :style="{ display: showTasksForm ? 'block' : 'none' }">
